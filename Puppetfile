@@ -19,9 +19,11 @@ github "boxen",      "3.0.2"
 # some/most of these if you want, but it's not recommended.
 
 github "autoconf",   "1.0.0"
+github "dnsmasq",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.2.5"
 github "homebrew",   "1.4.1"
+github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "openssl",    "1.0.0"
 github "repository", "2.2.0"
