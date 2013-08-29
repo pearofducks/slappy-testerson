@@ -9,9 +9,9 @@ GITHUBTARBALL
     boxen (3.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
+  remote: boxen/puppet-dockutil
   specs:
-    dnsmasq (1.0.0)
+    dockutil (0.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -24,29 +24,29 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.4.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-hub
-  specs:
-    hub (1.0.3)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nginx
-  specs:
-    nginx (1.4.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (3.2.9)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-opera
+  specs:
+    opera (0.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -59,14 +59,19 @@ GITHUBTARBALL
     ruby (6.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
+  remote: pearofducks/slappy-cp
   specs:
-    xquartz (1.1.0)
+    crashplan (1.0.5)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -81,18 +86,19 @@ GITHUBTARBALL
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
-  dnsmasq (= 1.0.0)
+  crashplan (= 1.0.5)
+  dockutil (= 0.1.2)
   gcc (= 2.0.1)
   git (= 1.2.5)
+  googledrive (= 1.0.2)
   homebrew (= 1.4.1)
-  hub (= 1.0.3)
   inifile (= 1.0.0)
-  nginx (= 1.4.2)
-  nodejs (= 3.2.9)
   openssl (= 1.0.0)
+  opera (= 0.2.0)
+  osx (= 1.6.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
+  skype (= 1.0.4)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  xquartz (= 1.1.0)
 

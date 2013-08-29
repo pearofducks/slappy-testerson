@@ -78,8 +78,5 @@ node default {
   include skype
   include opera
   include googledrive
-  package { 'CrashPlan':
-      provider => 'appdmg_eula',
-      source   => 'http://koia.oslo.osa/repository/apps/CrashPlan/Mac/CrashPlanPROe_Mac.dmg'
-  }
+  include crashplan
 }
